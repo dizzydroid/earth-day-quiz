@@ -87,6 +87,9 @@ const questions = [
 const questionElement = document.getElementById("question");
 const choicesElement = document.getElementById("choices");
 const nextButton = document.getElementById("next-button");
+const messageContainer = document.getElementById("message-container");
+
+
 
 function getRandomQuestion() {
     let randomIndex;
@@ -98,6 +101,7 @@ function getRandomQuestion() {
 }
 
 function displayQuestion() {
+    messageContainer.innerText = "";
     document.getElementById("score").innerText = "Score: " + score;
 
     if (questionsAsked.length === questions.length) {
@@ -114,26 +118,28 @@ function displayQuestion() {
     question.choices.forEach((choice, index) => {
         const button = document.createElement("button");
         button.innerText = choice;
+    
         button.addEventListener("click", () => {
             if (choice === question.answer) {
-                alert("Correct!");
+                messageContainer.innerText = "Correct!";
                 score++;
             } else {
-                alert("Incorrect. The correct answer is: " + question.answer);
+                messageContainer.innerText = "Incorrect. The correct answer is: " + question.answer;
             }
             nextButton.style.display = "block";
             choicesElement.style.pointerEvents = "none";
         });
-        
+    
         choicesElement.appendChild(button);
     });
+    
 }
+
 
 nextButton.addEventListener("click", () => {
     nextButton.style.display = "none";
     choicesElement.style.pointerEvents = "auto";
     displayQuestion();
 });
-
 
 displayQuestion();
