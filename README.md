@@ -6,6 +6,7 @@
 ## Celebrating Earth Day 2023 🌍️
 
 ### Can you ace this 15 - question quiz? Take it now and find out 😎️
+#### The Quiz generates 15 random questions every time so you can test yourself over and over 🥸️
 
 <pre align = "center"> <b> 
 <a href="https://dizzydroid.github.io/earth-day-quiz">Take The Quiz!</a> </b>
