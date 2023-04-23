@@ -13,4 +13,8 @@
 
 _____________________________
 
+#### Source Code is available in this repo, feel free to make your OWN quiz and share it with us 🤩️
+
+_____________________________
+
 <p align="center"> This web-app is part of the DizzyBlog © dizzydroid. All rights reserved </p>
