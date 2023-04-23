@@ -8,7 +8,7 @@
 ### Can you ace this 15 - question quiz? Take it now and find out 😎️
 
 <pre align = "center"> <b> 
-<a href="https://dizzydroid.github.io/earth-day-quiz" target="_blank">Take The Quiz!</a> </b>
+<a href="https://dizzydroid.github.io/earth-day-quiz">Take The Quiz!</a> </b>
 </pre>
 
 _____________________________
