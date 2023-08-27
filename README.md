@@ -18,9 +18,6 @@ _____________________________
 
 _____________________________
 
-<<<<<<< HEAD
-<p align="center"> This web-app is part of the <a href = "https://dizzydroid.github.io/blog.html">DizzyBlog</a> © dizzydroid. All rights reserved </p>
-=======
 <details>
   <summary>Some Math 🔢 </summary>
   <br>
